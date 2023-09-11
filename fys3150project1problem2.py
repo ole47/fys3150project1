@@ -1,14 +1,3 @@
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-
-
-data = pd.read_csv(r"\\wsl.localhost\Ubuntu\home\ole\Fys3150Project1\exact_points.dat", delimiter=" ")
-x = data.values[:,0]
-u = data.values[:,1]
-
-plt.plot(x,u)
-plt.xlabel("x")
-plt.ylabel("u(x)")
-plt.savefig("fys3150project1fig1.pdf")
-plt.show()
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ca81165e80c03f94fb741ac3a6e0db8e9644376798e205ed148dac11c9e87a0
+size 332
